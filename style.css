@@ -43,7 +43,6 @@ main {
 
 .painel p {
     opacity: .8;
-    cursor: pointer;
 }
 
 .painel p.active {
