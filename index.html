@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
 
     <script src="https://kit.fontawesome.com/ebb241c276.js" crossorigin="anonymous"></script>
 
@@ -20,24 +21,24 @@
             <h1>Pomodoro</h1>
 
             <div class="painel">
-                <p id="work" class="active">work</p>
+                <p id="work">work</p>
                 <p id="break">break</p>
             </div>
 
             <div class="timer">
                 <div class="circleTimer">
                     <div class="time">
-                        <p id="min">25</p>
+                        <p id="min"></p>
                         <p>:</p>
-                        <p id="sec">00</p>
+                        <p id="sec"></p>
                     </div>
                 </div>
             </div>
 
             <div class="control">
-                <button id="start" onclick="star()"><i class="fa-solid fa-play"></i></button>
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
 
-                <a href="#" id="restart"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                <button onclick="reload()" id="restart"><i class="fa-solid fa-arrow-rotate-left"></i></button>
             </div>
         </div>
     </main>

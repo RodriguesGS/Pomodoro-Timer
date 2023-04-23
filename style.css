@@ -9,7 +9,7 @@
 
 html, body {
     height: 100%;
-    background-color: #0D1117;
+    background-color: #252525;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -37,16 +37,18 @@ main {
     text-align: center;
     margin-block: 2rem;
     border-radius: 50px;
-    box-shadow: 0px 0px 15px 10px #1D2633
+    box-shadow: 0px 0px 15px 10px #333333;
+    
 }
 
 .painel p {
     opacity: .8;
+    cursor: pointer;
 }
 
 .painel p.active {
     opacity: 1;
-    color: #f86f6f;
+    color: #8C6554;
 }
 
 .timer {
@@ -57,7 +59,7 @@ main {
     width: 250px;
     height: 250px;
     margin: 20px;
-    box-shadow: 0px 0px 15px 10px #1D2633
+    box-shadow: 0px 0px 15px 10px #333333
 }
 
 .circleTimer {
@@ -65,7 +67,7 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: solid 5px #f86f6f;
+    border: solid 5px #8C6554;
     width: 200px;
     height: 200px;
 }
@@ -93,4 +95,10 @@ main {
 
 .control #restart {
     display: none;
+}
+
+.control a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
 }
