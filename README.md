@@ -1,9 +1,9 @@
-# <center>Pomodoro Timer </center>
+# <h1 style="text-align: center;">Pomodoro Timer </h1>
 
 <center> 
-  <img width="1000px" height="1000px" src="github/gitIMG.jpeg">
+  <img src="github/gitIMG.jpeg">
   <br>
-  <a href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank" rel="noopener noreferrer">Live demo</a>
+  <a style="font-size: 20px;" href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a>
 </center>
 
 ---
