@@ -4,7 +4,7 @@ const audio = new Audio('mp3/alarm.wav')
 
 let workTime = 25
 let breakTime = 5
-let seconds = "00"
+let seconds = '00'
 
 window.onload = function() {
     document.querySelector('#min').innerHTML = workTime
@@ -27,16 +27,16 @@ function start() {
         document.querySelector('#min').innerHTML = workMinutes
         document.querySelector('#sec').innerHTML = seconds
         
-        seconds = (seconds - 1).toString().padStart(2, "0")
+        seconds = (seconds - 1).toString().padStart(2, '0')
 
         if (seconds == -1) {
-            workMinutes = (workMinutes - 1).toString().padStart(2, "0")
+            workMinutes = (workMinutes - 1).toString().padStart(2, '0')
 
             if (workMinutes == -1) {
                 if (breakCount % 2 === 0) {
                     audio.play()
 
-                    workMinutes = (breakMinutes).toString().padStart(2, "0")
+                    workMinutes = (breakMinutes).toString().padStart(2, '0')
                     breakCount ++
 
                     workTittle.classList.remove('active');
