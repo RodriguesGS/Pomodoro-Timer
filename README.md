@@ -3,7 +3,7 @@
 <center> 
   <img src="github/gitIMG.jpeg">
   <br>
-  <a style="font-size: 20px;" href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a>
+  <a href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a>
 </center>
 
 ---
