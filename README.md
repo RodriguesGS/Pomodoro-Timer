@@ -17,4 +17,4 @@ This is my first project of this kind, so there may be many issues to fix yet.
 
 - - -
 
-This is an open-source project and your contribution is welcome! Feel free to report bugs, suggest new features, or submit pull requests
+This is an open-source project and your contribution is welcome! Feel free to report bugs, suggest new features, or submit pull requests.
