@@ -13,6 +13,8 @@ window.onload = function() {
     workTittle.classList.add('active');
 }
 
+// Start the timer
+
 function start() {
     document.querySelector('#start').style.display = 'none'
     document.querySelector('#restart').style.display = 'flex'
@@ -29,7 +31,7 @@ function start() {
         
         seconds = (seconds - 1).toString().padStart(2, '0')
 
-        if (seconds == -1) {
+        if (seconds == - 1) {
             workMinutes = (workMinutes - 1).toString().padStart(2, '0')
 
             if (workMinutes == -1) {
@@ -59,10 +61,13 @@ function start() {
 
     }
 
+// Decrease 1sec in timer
+
 setInterval(timer, 1000);
 
 }
 
+// Reload on page
 
 function reload() {
     location.reload('index.html')
