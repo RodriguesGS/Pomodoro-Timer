@@ -1,10 +1,12 @@
-# <h1 style="text-align: center;">Pomodoro Timer </h1>
+<div align="center">
+ <h1> Pomodoro Timer </h1>
+</div>
 
-<center> 
-  <img src="github/gitIMG.jpeg">
+<div align="center">
+ <img src="github/gitIMG.jpeg">
   <br>
-  <a href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a>
-</center>
+  <h2><a href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a></h2>
+</div>
 
 ---
 
