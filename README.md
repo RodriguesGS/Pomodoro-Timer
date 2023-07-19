@@ -5,7 +5,7 @@
 <div align="center">
  <img src="github/gitIMG.jpeg">
   <br>
-  <h2><a href="https://rodriguesgabriels.github.io/Pomodoro-Timer/" target="_blank">Live demo</a></h2>
+  <h2><a href="[https://rodriguesgabriels.github.io/Pomodoro-Timer/](https://rodriguesgs.github.io/Pomodoro-Timer/)" target="_blank">Live demo</a></h2>
 </div>
 
 ---
